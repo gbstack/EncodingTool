@@ -8,8 +8,9 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <TextBox x:Name="originalTextTextBox" HorizontalAlignment="Left" Height="86" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="497" AcceptsReturn="True"/>
-        <TextBox x:Name="encodingTextBox" HorizontalAlignment="Left" Height="81" Margin="10,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="497"/>
+        <TextBox x:Name="outputTextBox" HorizontalAlignment="Left" Height="81" Margin="10,142,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="497"/>
         <Button x:Name="encodeButton" Content="Encode" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="75" Click="encodeButton_Click"/>
+        <Button x:Name="decodeButton" Content="Decode" HorizontalAlignment="Left" Margin="90,101,0,0" VerticalAlignment="Top" Width="75" Click="decodeButton_Click"/>
 
     </Grid>
 </Window>

@@ -28,7 +28,12 @@ namespace EncodingTool
 
         private void encodeButton_Click(object sender, RoutedEventArgs e)
         {
-            encodingTextBox.Text = WebUtility.HtmlEncode(originalTextTextBox.Text);
+            outputTextBox.Text = WebUtility.HtmlEncode(originalTextTextBox.Text);
+        }
+
+        private void decodeButton_Click(object sender, RoutedEventArgs e)
+        {
+            outputTextBox.Text = WebUtility.HtmlDecode(originalTextTextBox.Text);
         }
     }
 }
